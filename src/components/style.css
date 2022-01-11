@@ -1,0 +1,71 @@
+.film-card {
+  margin-top: 10% !important;
+}
+
+.text-overflow{
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.film-description {
+  filter: brightness(10%);
+}
+
+.deneme{
+  background-color: red !important;
+}
+.deneme2{
+  background-color: pink !important;
+}
+
+
+.card-image {
+  height: 372.89px !important;
+  /* object-fit: cover !important;  */
+}
+
+/*
+.ant-card-cover > * {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+Karttaki resimlerin kutuyu her tarayıcı boyunda kaplaması
+*/
+.container {
+  width: 80% !important;
+}
+
+.ant-card-bordered {
+  border: 0px solid rgb(255, 255, 255) !important;
+  border-radius: 10px !important;
+}
+
+.ant-card-hoverable:hover {
+  border-color: transparent;
+  box-shadow: 0 9px 9px 4px rgb(0 0 0 / 16%), 0 5px 5px 0 rgb(0 0 0 / 12%),
+    0 5px 12px 4px rgb(0 0 0 / 9%) !important;
+}
+
+.movie-btn {
+  font-size: 20px !important;
+  display: block !important;
+  position: relative;
+  width: 200px !important;
+  height: 80px !important;
+  border: 1px solid #0a0944 !important ;
+  border-radius: 10px !important;
+  background-color: #0a0944 !important;
+  color: #fff6cd !important;
+  margin: 0 auto !important;
+  margin-top: 2% !important;
+  margin-bottom: 2% !important;
+}
+.movie-btn:hover {
+  background-color: #121079 !important;
+}
+
+.nav-text {
+  color: #fff6cd !important;
+  text-decoration: none;
+}
