@@ -73,3 +73,10 @@ export const getSimilarMovies = (id, page) => {
   });
   return response;
 }
+export const getRecommendations = (id, page) => {
+  const URL = `https://api.themoviedb.org/3/movie/${id}/recommendations?api_key=${api_key}&language=tr-Tr&page=${page}`;
+  const response = axios.get(URL).then((res) => {
+    return res.data["results"].slice(0,5);
+  });
+  return response;
+}

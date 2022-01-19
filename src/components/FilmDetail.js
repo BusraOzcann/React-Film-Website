@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import SimilarMoviesContainer from "./Films/SimilarMoviesContainer"
+import Recommendations from "./Films/Recommendations"
 import { useState, useEffect } from "react";
 import { getFilmWithID } from "../service/ApiRequests";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -81,6 +82,7 @@ function FilmDetail() {
         </div>
         
         {film["id"] != null ? <SimilarMoviesContainer id={film["id"]} /> : "..."}
+        {film["id"] != null ? <Recommendations id={film["id"]} /> : "..."}
       </div>
     </>
   );

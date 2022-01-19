@@ -4,6 +4,7 @@ import Upcoming from "./components/Films/Upcoming";
 import TopRated from "./components/Films/TopRated";
 import NowPlaying from "./components/Films/NowPlaying";
 import Similars from "./components/Films/Similars";
+import Recommendations from "./components/Films/Recommendations";
 import HomePage from "./Homepage";
 import Head from "./components/Head";
 import FooterMenu from "./components/FooterMenu";
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/detail/:id" element={<FilmDetail />} />
         <Route exact path="/upcoming" element={<Upcoming />} />
         <Route exact path="/similars/:id" element={<Similars />} />
+        <Route exact path="/recommendations/:id" element={<Recommendations />} />
       </Routes>
       <FooterMenu/>
     </Router>
