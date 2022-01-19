@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { getNowPlaying } from "../../service/ApiRequests";
+import { useParams } from "react-router-dom";
+import { getSimilarMovies } from "../../service/ApiRequests";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "@mui/material/Button";
 import "../style.css";
@@ -7,25 +8,27 @@ import FilmCard from "../FilmCard";
 
 let page = 1;
 
-function NowPlaying() {
-  const [playing, setPlaying] = useState([]);
+function Similars() {
+  const { id } = useParams();
+
+  const [similars, setSimilars] = useState([]);
 
   const callApi = () => {
-    getNowPlaying(page).then((res) => {
-      setPlaying(playing.concat(res.results));
+    getSimilarMovies(id, page).then((res) => {
+      setSimilars(similars.concat(res.results));
     });
   };
 
   useEffect(() => {
-    getNowPlaying(page).then((res) => {
-      setPlaying(res.results);
+    getSimilarMovies(id, page).then((res) => {
+      setSimilars(res.results);
     });
   }, []);
 
   return (
     <div className="container">
       <div className="row">
-        {playing.map((result, index) => {
+        {similars.map((result, index) => {
           return (
             <FilmCard
               id={result["id"]}
@@ -52,4 +55,4 @@ function NowPlaying() {
   );
 }
 
-export default NowPlaying;
+export default Similars;

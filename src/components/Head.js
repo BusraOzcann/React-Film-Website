@@ -9,26 +9,31 @@ function Head() {
   return (
     <Layout >
       <Header>
-        <div className="logo" />
+        
         <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["2"]}>
           <Menu.Item key="home">
             <Link className="nav-text" to="/">
-              Home
+              Anasayfa
             </Link>
           </Menu.Item>
           <Menu.Item key="populars">
             <Link className="nav-text" to="/populars">
-              Populars
+              Popülerler
             </Link>
           </Menu.Item>
-          <Menu.Item key="latest">
-            <Link className="nav-text" to="/latest">
-              Get Latest
+          <Menu.Item key="top_rated">
+            <Link className="nav-text" to="/top_rated">
+              En Çok Oy Alanlar
             </Link>
           </Menu.Item>
           <Menu.Item key="playing">
             <Link className="nav-text" to="/now-playing">
-              Get Now Playing
+              Gösterimdekiler
+            </Link>
+          </Menu.Item>
+          <Menu.Item key="upcoming">
+            <Link className="nav-text" to="/upcoming">
+              Gelecek Olanlar
             </Link>
           </Menu.Item>
         </Menu>

@@ -1,7 +1,9 @@
 import { BrowserRouter as Router, Routes, Route,  } from "react-router-dom";
 import Populars from "./components/Films/Populars";
-import Latest from "./components/Films/Latest";
+import Upcoming from "./components/Films/Upcoming";
+import TopRated from "./components/Films/TopRated";
 import NowPlaying from "./components/Films/NowPlaying";
+import Similars from "./components/Films/Similars";
 import HomePage from "./Homepage";
 import Head from "./components/Head";
 import FooterMenu from "./components/FooterMenu";
@@ -17,8 +19,10 @@ function App() {
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/populars" element={<Populars />} />
         <Route exact path="/now-playing" element={<NowPlaying />} />
-        <Route exact path="/latest" element={<Latest />} />
+        <Route exact path="/top_rated" element={<TopRated />} />
         <Route exact path="/detail/:id" element={<FilmDetail />} />
+        <Route exact path="/upcoming" element={<Upcoming />} />
+        <Route exact path="/similars/:id" element={<Similars />} />
       </Routes>
       <FooterMenu/>
     </Router>

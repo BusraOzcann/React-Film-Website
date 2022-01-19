@@ -1,31 +1,32 @@
 import { useState, useEffect } from "react";
-import { getNowPlaying } from "../../service/ApiRequests";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Button from "@mui/material/Button";
-import "../style.css";
+import { getUpcoming } from "../../service/ApiRequests";
 import FilmCard from "../FilmCard";
+import "../style.css";
+import "antd/dist/antd.css";
+import { Button } from "antd";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 let page = 1;
 
-function NowPlaying() {
-  const [playing, setPlaying] = useState([]);
+function Upcoming() {
+  const [upcoming, setUpcoming] = useState([]);
 
   const callApi = () => {
-    getNowPlaying(page).then((res) => {
-      setPlaying(playing.concat(res.results));
+    getUpcoming(page).then((res) => {
+        setUpcoming(upcoming.concat(res.results));
     });
   };
 
   useEffect(() => {
-    getNowPlaying(page).then((res) => {
-      setPlaying(res.results);
+    getUpcoming(page).then((res) => {
+        setUpcoming(res.results);
     });
   }, []);
 
   return (
     <div className="container">
       <div className="row">
-        {playing.map((result, index) => {
+        {upcoming.map((result, index) => {
           return (
             <FilmCard
               id={result["id"]}
@@ -52,4 +53,4 @@ function NowPlaying() {
   );
 }
 
-export default NowPlaying;
+export default Upcoming;
