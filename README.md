@@ -26,7 +26,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-React teknolojisi kullanılarak oluşturulmuş internet sitesi örneği. Sitede kullanılan veriler themoviedb.org sitesinde API'den alınmıştır.
+React teknolojisi kullanılarak oluşturulmuş internet sitesi örneği. Sitede kullanılan veriler "themoviedb.org" sitesinden alınmıştır.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
