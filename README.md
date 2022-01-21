@@ -24,6 +24,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Proje Hakkında
 
+<img src="https://github.com/BusraOzcann/React-Film-Website/blob/master/web_page1.png" />
 [![Product Name Screen Shot][product-screenshot]](https://github.com/BusraOzcann/React-Film-Website/blob/master/web_page1.png)
 
 React teknolojisi kullanılarak oluşturulmuş internet sitesi örneği. Sitede kullanılan veriler "themoviedb.org" sitesinden alınmıştır.
