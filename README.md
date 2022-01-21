@@ -28,7 +28,6 @@
 
 React teknolojisi kullanılarak oluşturulmuş internet sitesi örneği. Sitede kullanılan veriler "themoviedb.org" sitesinden alınmıştır.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -40,7 +39,6 @@ React teknolojisi kullanılarak oluşturulmuş internet sitesi örneği. Sitede 
 * [React-router-dom](https://reactrouter.com)
 * [Axios](https://www.npmjs.com/package/axios)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -53,7 +51,6 @@ Büşra Özcan - [Linkedn](https://www.linkedin.com/in/bsrozcan/) - ozcan.busra1
 
 Proje Linki - [Github](https://github.com/BusraOzcann/React-Film-Website)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
