@@ -7,7 +7,7 @@
 
 
 <details>
-  <summary>Table of Contents</summary>
+  <summary>İçerik</summary>
   <ol>
     <li>
       <a href="#about-the-project">Proje Hakkında</a>
