@@ -2,16 +2,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<h3 align="center">project_title</h3>
-  <p align="center">
-    React ile film sitesi uygulaması
-    <br />
-  </p>
+<h3 align="center">Film Sitesi Uygulaması</h3>
 </div>
 
 
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
