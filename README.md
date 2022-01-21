@@ -22,7 +22,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Proje Hakkında
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -32,7 +32,7 @@ React teknolojisi kullanılarak oluşturulmuş internet sitesi örneği. Sitede 
 
 
 
-### Built With
+### Kullanılan Teknolojiler
 
 * [React.js](https://reactjs.org/)
 * [Ant Design](https://ant.design)
@@ -47,7 +47,7 @@ React teknolojisi kullanılarak oluşturulmuş internet sitesi örneği. Sitede 
 
 
 <!-- CONTACT -->
-## Contact
+## İletişim
 
 Büşra Özcan - [Linkedn](https://www.linkedin.com/in/bsrozcan/) - ozcan.busra1999@gmail.com
 
