@@ -51,7 +51,7 @@ React teknolojisi kullanılarak oluşturulmuş internet sitesi örneği. Sitede 
 
 Büşra Özcan - [Linkedn](https://www.linkedin.com/in/bsrozcan/) - ozcan.busra1999@gmail.com
 
-Proje Linki: [Github](https://github.com/BusraOzcann/React-Film-Website)
+Proje Linki - [Github](https://github.com/BusraOzcann/React-Film-Website)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
