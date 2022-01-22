@@ -6,21 +6,6 @@
 </div>
 
 
-<details>
-  <summary>İçerik</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">Proje Hakkında</a>
-      <ul>
-        <li><a href="#built-with">Kullanılan Teknolojiler</a></li>
-      </ul>
-    </li>
-    <li><a href="#contact">İletişim</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## Proje Hakkında
 
@@ -42,15 +27,6 @@ React teknolojisi kullanılarak oluşturulmuş internet sitesi örneği. Sitede 
 
 
 
-
-
-
-<!-- CONTACT -->
-## İletişim
-
-Büşra Özcan - [Linkedn](https://www.linkedin.com/in/bsrozcan/) - ozcan.busra1999@gmail.com
-
-Proje Linki - [Github](https://github.com/BusraOzcann/React-Film-Website)
 
 
 
